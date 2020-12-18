@@ -1,0 +1,169 @@
+
+
+
+
+
+
+
+
+
+     Û   Û                        Û   Û        Û   Û
+     ÛÛ ÛÛ  ÛÛ   Û  Û  ÛÛ    ÛÛ   Û   Û  Û ÛÛ     ÛÛÛ   ÛÛ   Û ÛÛ
+     ÛÛÛÛÛ Û  Û  Û  Û Û     Û  Û  Û   Û  ÛÛ    Û   Û   Û  Û  ÛÛ
+     Û Û Û Û  Û  Û  Û  ÛÛ   ÛÛÛÛ  Û Û Û  Û     Û   Û   ÛÛÛÛ  Û
+     Û   Û Û  Û  Û  Û    Û  Û     ÛÛ ÛÛ  Û     Û   Û   Û     Û
+     Û   Û  ÛÛ    ÛÛ   ÛÛ    ÛÛ   Û   Û  Û     Û    Û   ÛÛ   Û     v2.31
+
+
+                    Copyright (c)1995 par PEYROT Bruno
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+INTRODUCTION:
+-------------
+
+        MouseWriter est un mini-‚diteur de textes dont la particularit‚ est
+de pouvoir fonctionner sans l'aide du clavier. Il s'adresse donc en priorit‚
+aux personnes handicap‚es ayant une mobilit‚ trŠs r‚duite et pouvant diffici-
+-lement se servir d'un clavier. Le maniement du logiciel se fait donc totale-
+-ment … la souris (ou grƒce  … n'importe quel  autre dispositif de  pointage
+compatible: trackball, ...). N‚anmoins l'accŠs … toutes les fonctions de ce
+logiciel peut  aussi se faire … l'aide  du clavier, mais l'int‚rˆt est alors
+plus limit‚.
+
+
+
+
+
+EQUIPEMENT NECESSAIRE:
+----------------------
+
+        Pour pouvoir vous servir de MouseWriter, vous aurez besoin de:
+
+        * Un IBM PC XT/AT ou compatible … partir du 8086.
+        * MS/DOS v3.3 ou plus.
+        * Une carte graphique VGA (640x480x16).
+        * Un disque dur (recommand‚).
+        * Une souris (presque oblig‚).
+        * Une imprimante (‡a peut servir).
+
+
+
+
+
+INSTALLATION:
+-------------
+
+        1) sur disque dur:
+        ------------------
+                * Cr‚ez sur votre dique dur un r‚peroire MOUSEWRI (ou le nom
+        que vous voulez) puis copiez dedans tous les fichiers se trouvant sur
+        la disquette MouseWriter v2.31.
+                * Lancez le programme de configuration MOUSINST. Celui-ci vous
+        demande la nationalit‚ du clavier  que vous souhaitez  avoir au lance-
+        -ment de  l'application, ainsi que  le path  permettant de trouver le
+        programme KEYB.COM.
+                * Lancez le programme par la commande MOUSEWRI.
+                * Il peut ˆtre int‚ressant de lancer MouseWriter … partir de
+        Microsoft Windows 3.x. En effet, comme ce programme s'adresse … des
+        personnes qui ne peuvent pas se servir du clavier, Windows est une
+        plateforme de lancement id‚ale. Pour installer une application MS/DOS
+        sous Windows, consultez votre notice d'utilisation. Quelques fichiers
+        *.ICO sont fournis pour aggr‚menter la pr‚sentation.
+
+
+        2) sur disquette:
+        -----------------
+                * Cr‚ez une disquette systŠme par la commande FORMAT /S (voir
+        le manuel MS/DOS pour plus de renseignements).
+                * Copiez sur cette disquette tous les fichiers de la disquette
+        MouseWriter, ainsi que les fichiers COMMAND.COM, KEYB.COM, KEYBOARD.SYS.
+                * Recopiez sur cette disquette les fichiers AUTOEXEC.BAT et
+        CONFIG.SYS de votre disquette de lancement.
+                * Ensuite, ‚ditez le fichier AUTOEXEC.BAT et rajoutez … la fin
+        la ligne MOUSEWRI.
+                * Enfin, lancez … partir de la disquette le fichier MOUSINST,
+        et pr‚cisez comme path pour trouver KEYB.COM : A:\
+                * Vous voila en possession d'une disquette Auto-bootable.
+
+
+
+
+
+COMMANDES CLAVIER:
+------------------
+
+ALT + P :       A_Propos_de
+ALT + N :       Nouveau
+ALT + L :       Lecture
+ALT + S :       Sauvegarde
+ALT + I :       Impression
+ALT + Q :       Quitter
+F1 :            Clavier fran‡ais
+F2 :            Clavier anglais
+F3 :            Clavier allemand
+F4 :            Clavier espagnol
+F5 :            Clavier italien
+F6 :            Clavier am‚ricain (international)
+
+Les touches CTRL, ALT, INSER et SUPPR ne sont pas encore g‚r‚es pour le
+moment.
+
+
+
+
+
+AMELIORATIONS PREVUES:
+----------------------
+        * Compatibilit‚ avec les modes graphiques moins ‚volu‚s, tels que EGA
+et VGA low res.
+        * Gestion de toutes les touches. (Si j'arrive … trouver un driver SVGA
+fiable, j'envisage mˆme l'‚mulation d'un clavier complet 102 touches).
+        * Traduction du logiciel dans les cinq langues. (D'ailleurs … ce pro-
+-pos, si vous parlez allemand, espagnol ou italien, ce serait sympa de m'en-
+-voyer une  traduction des messages que  vous pourrez trouver dans le fichier 
+MESSAGES.TXT). Cela me permettrait de faire un logiciel europ‚en.
+        * La possibilit‚ de voyager dans les r‚pertoires et de lire tous les
+fichiers textes non cod‚s. Pour l'instant on est limit‚ aux fichiers *.MWT et
+au r‚pertoire de travail.
+        * La possibilit‚ de lire et d'‚crire des fichiers de taille illimit‚e.
+(ou presque, faut pas exag‚rer non plus...).
+        * Enfin un algorithme de justification qui ne planterait pas de fa‡on
+pseudo-al‚atoire. J'ai r‚ussi … le rendre … peu prŠs stable, mais de temps en
+temps, il d‚raille. On ne dirait pas, mais c'est bien une des parties du pro-
+-gramme les plus complexes.
+
+
+
+
+        Voila, c'est tout. Si vous voulez avoir des renseignements, ou si vous
+avez des remarques, des suggestions, ‚crivez moi …:
+
+                PEYROT Bruno
+                1, rue Commandant Charcot
+                Bƒtiment PrimevŠre All‚e nø2
+                69005 LYON
+
+
+        Je vous  rappelle que  cette version  de MouseWriter  est totalement
+freeware et que vous pouvez donc la distribuer librement … n'importe qui, …
+la condition de ne pas la modifier sans la permission pr‚alable de l'auteur.
+
+
+
+                                        B. PEYROT     ;-)
+
+
+

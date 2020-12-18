@@ -1,0 +1,43 @@
+
+
+fichier
+m‚moire libre
+aucun
+A_Propos_de
+Nouveau
+Lecture
+Sauvegarde
+Impression
+Quitter
+Oui
+Non
+Ok
+Impossible de charger KEYB
+Haut Document
+Bas Document
+Un ‚diteur de textes pilot‚ … la souris
+Sauvegarde de xxxxx
+Erreur d'‚criture
+Voulez-vous vraiment sauvegarder ?
+Voulez-vous changer le nom ?
+Nom de sauvegarde ? (TAB annule)
+xxxxx existe d‚j…. Ecrasement ?
+Il n'y a aucun texte en m‚moire
+xxxxx a ‚t‚ modifi‚. Sauvegarde ?
+Nom du texte ? (TAB annule)
+Lecture de xxxxx
+Texte trop long. Je coupe.
+Erreur de lecture
+R‚pertoire:
+Page:
+Annule
+Aucun fichier MouseWriter disponible
+Voulez-vous imprimer ?
+Positionnez le papier...
+Impression de xxxxx en cours. Page xx/xx.
+L'imprimante n'est pas prˆte
+Etes-vous s–r de vouloir quitter ?
+Document plein: insertion impossible
+Impossible d'ouvrir le mode VGA 650x480x16
+Programme interrompu
+Impossible d'ouvrir xxxxx
